@@ -2,23 +2,26 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <title>Niklas Eriksson</title>	
+    <title>Niklas Eriksson</title>
+    <link rel="stylesheet" href="/css/styles.css">	
 </head>
 <body>
 <header>
     <h1>Niklas Eriksson</h1>
     <nav>
 			<ul>
-				<li><a href="index.html">START</a></li>
-				<li><a href="blogg.html">BLOGG</a></li>
-				<li><a href="projekt.html">PROJEKT</a></li>
-				<li><a href="bilder.html">BILDER</a></li>
-				<li><a href="aboutme.html">OM MIG</a></li>
-				<li><a href="kontakt.html">KONTAKT</a></li>
+				<li><a href="{{site.baseurl}}index.html">START</a></li>
+				<li><a href="{{site.baseurl}}blogg.html">BLOGG</a></li>
+				<li><a href="{{site.baseurl}}projekt.html">PROJEKT</a></li>
+				<li><a href="{{site.baseurl}}bilder.html">BILDER</a></li>
+				<li><a href="{{site.baseurl}}aboutme.html">OM MIG</a></li>
+				<li><a href="{{site.baseurl}}kontakt.html">KONTAKT</a></li>
 			</ul>
 		</nav>
 </header>
 {{content}}
-
+<footer>
+        <p> Upphovsrätt tillhör &copy; 2017, Niklas Eriksson</p>      
+</footer>
 </body>
 </html>	
