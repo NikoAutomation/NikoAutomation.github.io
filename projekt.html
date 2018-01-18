@@ -1,0 +1,14 @@
+---
+layout: default 
+---
+
+<h1>Projekt</h1>
+
+<ul>
+    {% for projekt in site.categories.projekts %}
+    <li>
+        <a href="">{{projekt.title}}</a>
+        <p>{{projekt.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>

@@ -10,12 +10,10 @@
     <h1>Niklas Eriksson</h1>
     <nav>
 			<ul>
-				<li><a href="{{site.baseurl}}index.html">START</a></li>
-				<li><a href="{{site.baseurl}}blogg.html">BLOGG</a></li>
-				<li><a href="{{site.baseurl}}projekt.html">PROJEKT</a></li>
-				<li><a href="{{site.baseurl}}bilder.html">BILDER</a></li>
-				<li><a href="{{site.baseurl}}aboutme.html">OM MIG</a></li>
-				<li><a href="{{site.baseurl}}kontakt.html">KONTAKT</a></li>
+				<li><a href="{{site.baseurl}}index.html" class="{% if page.url == '/' %}current{% endif %}">START</a></li>
+				<li><a href="{{site.baseurl}}blogg.html" class="{% if page.url == '/blogg.html' %}current{% endif %}">BLOGG</a></li>
+				<li><a href="{{site.baseurl}}projekt.html" class="{% if page.url == '/projekt.html' %}current{% endif %}">PROJEKT</a></li>
+				<li><a href="{{site.baseurl}}aboutme.html" class="{% if page.url == '/aboutme.html' %}current{% endif %}">OM MIG</a></li>
 			</ul>
 		</nav>
 </header>
