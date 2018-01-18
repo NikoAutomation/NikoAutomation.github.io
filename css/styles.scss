@@ -3,6 +3,22 @@
 
 $cool-red: #F44336;
 
+html, body {height: 100%;}
+body {
+    max-width: 1000px;
+    margin:  50px auto;
+}
+#wrapper {min-height: 100%;}
+main {overflow:auto;
+	padding-bottom: 40px;}  
+footer {position: relative;
+	margin-top: -40px; 
+	height: 40px; clear:both;} 
+
+body:before {
+content:""; height:100%; float:left; width:0;
+margin-top:-32767px; }
+
 h1 {
   color: $cool-red;
 }
@@ -10,6 +26,14 @@ h1 {
 .current {
     background-color: $cool-red;
 }
+
+
+.box {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid $cool-red;
+}
+
 
 .container {
     margin: 10px auto;
