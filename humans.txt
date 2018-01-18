@@ -1,0 +1,12 @@
+﻿/* TEAM */
+	Creator: Niklas Eriksson
+	Contact: ne222em [at] student.lnu.se
+	From: Linkoping, Sweden
+
+/* THANKS */
+
+	My cat <3
+	
+/* SITE */
+	Last update:2018/01/18
+	Language: Swedish
